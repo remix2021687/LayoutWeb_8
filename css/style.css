@@ -160,4 +160,42 @@ body {
     padding-left: 15px;
 }
 
+.step-2-under {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    align-self: center;
+    background-image: url(/LayoutWeb_8/img/bg-step-2-under.svg);
+    border-radius: 10px;
+    width: 1150px;
+    height: 112px;
+    margin-top: 100px;
+    padding: 0 40px 0 30px;
+}
+
+.step-2-under h1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Bitter', serif;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.step-2-under img {padding-right: 20px;}
+
+.step-2-under button {
+    background-color: #17A550;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    width: 111px;
+    height: 52px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
 /*Step-2 endblock*/
