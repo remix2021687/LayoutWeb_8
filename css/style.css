@@ -57,6 +57,7 @@ body {
     height: 486px;
     border-radius: 10px;
     margin-top: 60px;
+    margin-right: 100px;
 }
 
 .step-1-right {
@@ -105,7 +106,7 @@ body {
     flex-direction: row;
     justify-content: center;
     margin-top: 77px;
-    margin-right: 12px;
+    margin-right: 102px;
 }
 
 .step-2-left h1 {
@@ -141,6 +142,8 @@ body {
     font-weight: 400;
     padding: 74px 0 0 4px;
 }
+
+.step-2-left img {padding-right: 4px;}
 
 .step-2-right {
     margin-top: 73px;
@@ -199,3 +202,102 @@ body {
 }
 
 /*Step-2 endblock*/
+
+/*Step-3 block*/
+.step-3 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 97px;
+    margin-left: 350px;
+}
+
+.step-3 h2 {
+    font-family: 'Bitter', serif;
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.step-3-content {
+    display: flex;
+    flex-direction: row;
+    margin-top: 33px;
+}
+
+.step-3-box {
+    width: 357px;
+    height: 371px;
+    border-radius: 10px;
+    background-color: #F7F9FA;
+    margin-right: 40px;
+}
+
+.step-3-content button {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    width: 57px;
+    height: 30px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    margin: 20px 25px;
+}
+
+.step-3-box-photo-1 {
+    height: 200px;
+    background-image: url(/LayoutWeb_8/img/step-3-box-img-1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 24px;
+}
+
+.step-3-box-photo-2 {
+    height: 200px;
+    background-image: url(/LayoutWeb_8/img/step-3-box-img-2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 24px;
+}
+
+.step-3-box-photo-3 {
+    height: 200px;
+    background-image: url(/LayoutWeb_8/img/step-3-box-photo-3.png);
+    background-repeat: no-repeat;
+    margin-bottom: 24px;
+}
+
+.step-3-box h2 {
+    font-family: 'Bitter', serif;
+    font-size: 30px;
+    font-weight: 400;
+    padding-left: 25px;
+    padding-bottom: 13px;
+}
+
+.step-3-box p {
+    max-width: 299px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    padding-left: 25px;
+}
+
+.step-3 a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    line-height: 20px;
+    font-weight: 400;
+    padding-top: 40px;
+}
+
+.step-3 img {padding-right: 4px;}
+
+/*Step-3 endblock*/
