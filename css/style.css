@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 * {
     padding: 0;
@@ -9,10 +9,12 @@ body {
     display: flex;
     flex-direction: column;
     font-family: 'Raleway', sans-serif;
+    /* font-family: 'Bitter', serif; */
     overflow: hidden auto;
     background-color: #F5F5F5;
 }
 
+/*topnav block*/
 .topnav {
     display: flex;
     flex-direction: row;
@@ -40,3 +42,122 @@ body {
 }
 
 .topnav-right img {padding-right: 12px;}
+
+/*topnav endblock*/
+
+/*Step-1 block*/
+.step-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-self: center;
+    justify-content: space-around;
+    background-color: #E3EBF1;
+    width: 1150px;
+    height: 486px;
+    border-radius: 10px;
+    margin-top: 60px;
+}
+
+.step-1-right {
+    width: 500px;
+    height: 386px;
+}
+
+.step-1-right h4 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #10843F;
+}
+
+.step-1-right h2 {
+    font-family: 'Bitter', serif;
+    font-size: 47px;
+    font-weight: 400;
+    line-height: 52px;
+    padding-top: 8px;
+}
+
+.step-1-right p {
+    font-size: 18px;
+    line-height: 24px;
+    padding-top: 22px;
+}
+
+.step-1-right button {
+    background-color: #17A550;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    width: 161px;
+    height: 60px;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+/*Step-1 endblock*/
+
+/*Step-2 block*/
+.step-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 77px;
+    margin-right: 12px;
+}
+
+.step-2-left h1 {
+    font-family: 'Bitter', serif;
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 40px;
+    padding-bottom: 33px;
+}
+
+.step-2-left h2 {
+    font-family: 'Bitter', serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 35px;
+    padding-top: 9px;
+}
+
+.step-2-left p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    padding-top: 13px;
+}
+
+.step-2-left a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    line-height: 20px;
+    font-weight: 400;
+    padding: 74px 0 0 4px;
+}
+
+.step-2-right {
+    margin-top: 73px;
+    margin-left: 40px;
+}
+
+.step-2-right-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.step-2-right-box p {
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 15px;
+}
+
+/*Step-2 endblock*/
