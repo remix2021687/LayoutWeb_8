@@ -301,3 +301,63 @@ body {
 .step-3 img {padding-right: 4px;}
 
 /*Step-3 endblock*/
+
+/*Step-4 block*/
+.step-4 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    align-self: center;
+    background-image: url(/LayoutWeb_8/img/step-4-bg.svg);
+    width: 1150px;
+    height: 425px;
+    margin-top: 100px;
+    padding: 0 50px;
+}
+
+.step-4-right h2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.step-4-right h2 > img {margin-right: 10px;}
+
+.step-4-right h3 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-top: 31px;
+}
+
+.inputs {
+    width: 500px;
+    border-radius: 5px;
+    border: 1px solid #AABCC5;
+    padding: 15px 16px;
+    margin-top: 24px;
+    outline: none;
+}
+
+.step-4-right p {
+    color: #536D7A;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 31px;
+}
+
+.step-4-right p > button {
+    background-color: #FFC728;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 82px;
+    height: 50px;
+    font-size: 12px;
+    font-weight: 700;
+    margin-right: 10px;
+}
+
+/*Step-4 endblock*/
